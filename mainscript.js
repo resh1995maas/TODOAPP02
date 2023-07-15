@@ -7,10 +7,10 @@ logout.addEventListener("click", () => {
   const errorMsg = document.getElementById("error__msg");
   const mbtn = document.getElementById("modalbtn");
   modalHead.innerText = "Logging out";
-  modalHead.style.color = "green";
-  errorMsg.innerText = "See you soo...........!";
-  errorMsg.style.color = "green";
-  mbtn.style.backgroundColor = "green";
+  modalHead.style.color = "blue";
+  errorMsg.innerText = "Thankyou..!";
+  errorMsg.style.color = "blue";
+  mbtn.style.backgroundColor = "blue";
   myModal.show();
 
   mbtn.addEventListener("click", () => {
@@ -90,11 +90,11 @@ function checkBoxValidation() {
           const errorMsg = document.getElementById("error__msg");
           const mbtn = document.getElementById("modalbtn");
           modalHead.innerText = "Todo Success";
-          modalHead.style.color = "green";
+          modalHead.style.color = "blue";
           errorMsg.innerText =
             "Congrats. 5 Tasks have been Successfully Completed";
-          errorMsg.style.color = "green";
-          mbtn.style.backgroundColor = "green";
+          errorMsg.style.color = "blue";
+          mbtn.style.backgroundColor = "blue";
           myModal.show();
         }
       });

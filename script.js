@@ -44,10 +44,10 @@ lForm.addEventListener("submit", (e) => {
       const errorMsg = document.getElementById("error__msg");
       const mbtn = document.getElementById("modalbtn");
       modalHead.innerText = "Valid credentials";
-      modalHead.style.color = "dark green";
+      modalHead.style.color = "blue";
       errorMsg.innerText = message;
-      errorMsg.style.color = "dark green";
-      mbtn.style.backgroundColor = "dark green";
+      errorMsg.style.color = "blue";
+      mbtn.style.backgroundColor = "blue";
       myModal.show();
 
       mbtn.addEventListener("click", () => {
