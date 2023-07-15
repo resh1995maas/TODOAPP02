@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-image: linear-gradient(
+      to right,
+      #77d8ff 0%,
+      #ff867a 0%,
+      #ff8c7f 21%,
+      #f99185 52%,
+      #cf556c 78%,
+      #b12a5b 100%
+    );
+  }
+  
+  .container-sm {
+    margin-top: 7.5%;
+    /* transform: scale(0.9); */
+    /* margin-bottom: 5%; */
+  
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 4%;
+    background-color: aliceblue;
+  }
+  
+  .todo {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .login__form {
+    width: 80%;
+    /* padding: 2% 8%; */
+    padding-left: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login__form h2 {
+    font-size: 2.5rem;
+    color: #b12a5b;
+  }
+  .login__form a {
+    text-decoration: none;
+    margin-top: 2%;
+    color: #ff867a;
+  }
+  
+  .login__form h5 {
+    font-size: 1.5rem;
+    color: #6f172f;
+    margin-bottom: 10%;
+  }
